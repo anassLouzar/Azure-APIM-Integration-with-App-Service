@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "East US 2"
+    },
+    "resourceGroupName": {
+      "value": "rg-eastus-001"
+    },
+    "apimServiceName": {
+      "value": "my-apim-service"
+    },
+    "publisherEmail": {
+      "value": "admin@example.com"
+    },
+    "publisherName": {
+      "value": "My Organization"
+    },
+    "appServicePlanName": {
+      "value": "my-appservice-plan"
+    },
+    "webAppName": {
+      "value": "my-webapp"
+    },
+    "apiSuffix": {
+      "value": "myapi"
+    }
+  }
+}
